@@ -1,36 +1,61 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>collectie</title>
-    <link rel="stylesheet" href="collectie.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>collectie</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="collectie.css">
+<script src="collectie.js"></script>
 </head>
+
 <body>
-    <header role="banner">
-        <img id="logo-main" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/32877/logo-thing.png" width="200" alt="Logo Thing main logo">
-      <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
+
+<!--navbar-->
+<div class="m-4 container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-white" style="background-color: black; width: 98.5%;" >
         <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+            <a href="#" class="navbar-brand" style="color: white;">Brand</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
             </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbar-primary-collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-      </header><!-- header role="banner" -->
+            <div class="collapse navbar-collapse"  id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link"style="color: white;">Home</a>
+                    <a href="#" class="nav-item nav-link"style="color: white;">Collectie</a>
+                    <a href="#" class="nav-item nav-link"style="color: white;">Over Ons</a>
+                    <a href="#" class="nav-item nav-link"style="color: white;">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--navbar-->
+
+<!--slideshow-->
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+         <p style="width:100%; height: 3%; text-align: center; color: white; padding-top: 1%;"> TOT WEL 50% KORTING</p>         
+        </div>
+  
+        <div class="item">
+         <p style="width:100%; height: 3%; text-align: center; color: white; padding-top: 1%;">Members krijgen gratis verzending en kunnen binnen 30 dagen gratis retourneren.</p> 
+        </div>
+      
+        <div class="item">
+         <p style="width:100%; height: 3%; text-align: center; color: white; padding-top: 1%;">STUDENTEN KRIJGEN NU 10% KORTING</p>         
+        </div>
+      </div>
+    </div>
+</div>
+<!--slideshow-->
+
+
 </body>
 </html>
