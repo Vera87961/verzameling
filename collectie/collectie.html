@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="collectie.css">
 <script src="collectie.js"></script>
 </head>
@@ -17,19 +18,19 @@
 
 <!--navbar-->
 <div class="m-4 container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-white" style="background-color: black; width: 98.5%;" >
+    <nav class="navbar navbar-expand-lg sticky-top navbar-white" style="position: fixed; background-color: black; width: 98.5%;" >
         <div class="container-fluid">
             <a href="#" class="navbar-brand" style="color: white;">Brand</a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse"  id="navbarCollapse">
-                <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link"style="color: white;">Home</a>
-                    <a href="#" class="nav-item nav-link"style="color: white;">Collectie</a>
-                    <a href="#" class="nav-item nav-link"style="color: white;">Over Ons</a>
-                    <a href="#" class="nav-item nav-link"style="color: white;">Contact</a>
-                </div>
+              <div class="navbar-nav">
+                <a href="/index.html" class="nav-item nav-link"style="color: white;">Home</a>
+                <a href="/collectie/collectie.html" class="nav-item nav-link"style="color: white;">Collectie</a>
+                <a href="/" class="nav-item nav-link"style="color: white;">Over Ons</a>
+                <a href="/contact/contact.html" class="nav-item nav-link"style="color: white;">Contact</a>
+            </div>
             </div>
         </div>
     </nav>
@@ -56,34 +57,87 @@
 </div>
 <!--slideshow-->
 
-<!--grid-->
-<div class="grid-container">
-    <div class="grid-item">
-        <img src="/images/schoen1.webp" height="200px" alt="">
-    </div>
-
-    <div class="grid-item">
-        <img src="/images/schoen2.webp" height="200px" alt="">
-    </div>
-
-    <div class="grid-item">
-        <img src="/images/schoen3.webp" height="200px" alt="">
-    </div>
-
-    <div class="grid-item">
-        <img src="/images/schoen4.webp" height="200px" alt="">
-    </div>
-
-    <div class="grid-item">
-        <img src="/images/schoen5.webp" height="200px" alt="">
-    </div>
-
-    <div class="grid-item">
-        <img src="/images/schoen6.webp" height="200px" alt="">
-    </div>
-
+<!--achtergrond-->
+<div class="bubbles">
+    <img src="/Index/shoe1.png">
+    <img src="/Index/shoe2.png" alt="">
+    <img src="/Index/shoe3.png" alt="">
+    <img src="/Index/shoe4.png" alt="">
+    <img src="/Index/shoe5.png" alt="">
+    <img src="/Index/shoe6.png" alt="">
 </div>
+<!--achtergrond-->
+
 <!--grid-->
+<div class="container2">
+    <div class="card">
+      <div class="card-item">
+        <img src="/images/schoen1.webp" alt="" />
+        <div class="card-details">
+          <h1>naam</h1>
+          <p>kleur <br>
+             prijs</p>
+        </div>
+      </div>
+      <div class="card-item">
+        <img src="/images/schoen2.webp" alt="" />
+        <div class="card-details">
+            <h1>naam</h1>
+            <p>kleur <br>
+               prijs</p>
+        </div>
+      </div>
+      <div class="card-item">
+        <img src="/images/schoen3.webp" alt="" />
+        <div class="card-details">
+            <h1>naam</h1>
+            <p>kleur <br>
+               prijs</p>
+        </div>
+      </div>
+      <div class="card-item">
+        <img src="/images/schoen4.webp" alt="" />
+        <div class="card-details">
+            <h1>naam</h1>
+            <p>kleur <br>
+               prijs</p>
+        </div>
+      </div>
+      <div class="card-item">
+        <img src="/images/schoen5.webp" alt="" />
+        <div class="card-details">
+            <h1>naam</h1>
+            <p>kleur <br>
+               prijs</p>
+        </div>
+      </div>
+      <div class="card-item">
+        <img src="/images/schoen6.webp" alt="" />
+        <div class="card-details">
+            <h1>naam</h1>
+            <p>kleur <br>
+               prijs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--grid-->
+
+<!--footer-->
+<footer class="footer">
+    <div class="icons">
+      <a style="color: black;" href="https://nl-nl.facebook.com/nike/" class="fa fa-facebook"></a>
+      <a style="color: black;" href="https://twitter.com/nike" class="fa fa-twitter"></a>
+      <a style="color: black;" href="https://www.youtube.com/user/nike?app=desktop&gl=NL&hl=nl&cbrd=1" class="fa fa-youtube"></a>
+      <a style="color: black;" href="https://www.instagram.com/nike/" class="fa fa-instagram"></a>
+
+        <p class="company-name">
+            ABC &copy; 2021, ALL Rights Reserved
+        </p>
+    </div>
+</footer>
+<!--footer-->
+
 
 </body>
 </html>

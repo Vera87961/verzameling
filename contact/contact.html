@@ -1,12 +1,143 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="contact.js" defer></script>
     <title>Contact</title>
 </head>
 <body>
-    
+<!--navbar-->
+<div class="m-4 container-fluid">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-white" style="position: fixed; background-color: black; width: 98.5%;" >
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand" style="color: white;">Brand</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"  id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="/index.html" class="nav-item nav-link"style="color: white;">Home</a>
+                    <a href="/collectie/collectie.html" class="nav-item nav-link"style="color: white;">Collectie</a>
+                    <a href="/" class="nav-item nav-link"style="color: white;">Over Ons</a>
+                    <a href="/contact/contact.html" class="nav-item nav-link"style="color: white;">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--navbar-->
+
+
+<!--achtergrond-->
+<div class="bubbles">
+    <img src="/Index/shoe1.png">
+    <img src="/Index/shoe2.png" alt="">
+    <img src="/Index/shoe3.png" alt="">
+    <img src="/Index/shoe4.png" alt="">
+    <img src="/Index/shoe5.png" alt="">
+    <img src="/Index/shoe6.png" alt="">
+</div>
+<!--achtergrond-->
+
+<!--formulier-->
+<div class="form">
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="well well-sm">
+
+                <form class="form-horizontal" method="post">
+
+                    <fieldset>
+                        <legend class="text-center header">Contact ons</legend>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name" type="text" placeholder="Naam" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name" type="text" placeholder="Achternaam" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email" type="text" placeholder="Email Adres" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone" type="text" placeholder="Telefoon-nummer" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea class="form-control" id="message" name="message" placeholder="Vul hier uw bericht in. We zullen binnen 2 werk dagen terug reageren." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg" style="background-color: black;">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                </form>
+
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div>
+                <div class="panel panel-default">
+
+                    <div class="text-center header">Ons Bedrijf</div>
+
+                    <div class="panel-body text-center">
+                        <h4>Adres</h4>
+                        <div>
+                        15 Korte Lijnbaan<br />
+                        3012 EJ Rotterdam<br />
+                        +31 (0) 207219453<br />
+                        nike@gmail.com<br />
+                        </div>
+                        <hr />
+                        <div id="map1" class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2742.2761548553954!2d4.4729118543939554!3d51.92162458302008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c434a6d911cd27%3A0x9f5ef3bea0aebfc6!2sNike%20Store!5e0!3m2!1snl!2snl!4v1664891722913!5m2!1snl!2snl" width="866" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<footer class="footer">
+    <div class="icons">
+        <a style="color: black;" href="https://nl-nl.facebook.com/nike/" class="fa fa-facebook"></a>
+        <a style="color: black;" href="https://twitter.com/nike" class="fa fa-twitter"></a>
+        <a style="color: black;" href="https://www.youtube.com/user/nike?app=desktop&gl=NL&hl=nl&cbrd=1" class="fa fa-youtube"></a>
+        <a style="color: black;" href="https://www.instagram.com/nike/" class="fa fa-instagram"></a>
+
+        <p class="company-name">
+            ABC &copy; 2021, ALL Rights Reserved
+        </p>
+    </div>
+</footer>
+<!--footer-->
+
 </body>
 </html>
