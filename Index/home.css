@@ -14,7 +14,8 @@
 }
 
 .logo{
-    width: 100px;
+    width: 150px;
+    height: 140px;
     cursor: pointer;
 }
 .navbar{
@@ -41,7 +42,7 @@ h1{
     line-height: 80px;
 }
 .bubbles img{
-width: 50px;
+width: 70px;
 animation: bubble 7s linear infinite;
 }
 
