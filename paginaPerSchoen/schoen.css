@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+	font-family: "Arial";
+}
 .wrapper-dropdown {
     position: relative;
     width: 200px;
@@ -67,8 +71,9 @@
 }
 
 .flex-container {
-    margin-left: 50%;
     margin: 6px;
+    margin-left: 5%;
+    margin-top: -2;
     width: 82%;
     display: flex;
 }
@@ -342,3 +347,13 @@ h1.title {
     font-size: 50%;
     }
 }    
+
+.selectid{
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: small;
+}
+
+.galerij{
+    margin-left: -5%;
+}
