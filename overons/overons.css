@@ -89,8 +89,11 @@
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-}
 
+}
+.foto{
+    margin-top: -27%;
+}
 .fa:hover {
     color: white;
     opacity: 0.7;  
